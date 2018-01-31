@@ -15,17 +15,17 @@ O jogo é dividido em 3 classes:
 
 * *main*
 
-### Classe *JogoDaVelha*
+### Classe **JogoDaVelha**
 
-É a classe mais simples e apenas instancia a classe *TelaInicio* e a exibe na tela, dando inicio ao jogo.
+É a classe mais simples e apenas instancia a classe [**TelaInicio**](https://github.com/iagonuvem/tictactoe-java/blob/master/docs/ptBr.md#classe-telainicio) e a exibe na tela, dando inicio ao jogo.
 
-## Classe *TelaInicio*
+### Classe **TelaInicio**
 
-É a classe da tela de inicio, nela existe apenas uma função, do tipo void, **no evento "clique" do botão "começar"**, que Instancia a classe principal do jogo, passando como parâmetros de construção as informações digitadas pelos jogadores.
+É a classe da tela de inicio, nela existe apenas uma função, do tipo void, *no evento "clique" do botão "começar"*, que Instancia a [**classe principal**](https://github.com/iagonuvem/tictactoe-java/blob/master/docs/ptBr.md#classe-telainicio) do jogo, passando como parâmetros de construção as informações digitadas pelos jogadores.
 
-## Classe *main* 
+### Classe **main** 
 
 É a classe onde ocorre o jogo propriamente dito, ela recebe como parâmetro de construção:
 
-* Nome do Jogador 1 **(NomeJogador1)** - *String*
-* Nome do Jogador 2 **(NomeJogador2)** - *String*
+* Nome do Jogador 1 *(NomeJogador1)* - **String**
+* Nome do Jogador 2 *(NomeJogador2)* - **String**
